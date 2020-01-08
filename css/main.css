@@ -6,8 +6,27 @@
 
 html {
   box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: #e2e2e2;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 0.5em 0.75em;
+  background-color: #555;
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+  margin: 1rem;
+}
+.img-flex {
+  display: block;
 }
