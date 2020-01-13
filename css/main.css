@@ -24,14 +24,25 @@ section {
   padding: 1rem;
 }
 
+h1 {
+
+}
+
+
+.img-flex {
+  display: block;
+  width: 100%;
+  padding-bottom: 1rem;
+  margin-top: 2.5rem;
+}
+
+
 .btn {
-  padding: 0.5em 0.75em;
+  display: inline-block;
+  padding: .7em;
   background-color: #555;
   border-radius: 4px;
   color: #fff;
   text-decoration: none;
   margin: 1rem;
-}
-.img-flex {
-  display: block;
 }
